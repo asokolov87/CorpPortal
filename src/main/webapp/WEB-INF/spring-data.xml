@@ -26,9 +26,9 @@
 
     <!-- Datasource. Database MySQL -->
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://localhost:3306/helpdesk"/>
-        <property name="username" value="root" />
+        <property name="driverClassName" value="org.postgresql.Driver" />
+        <property name="url" value="jdbc:postgresql://172.29.171.214:5432/corp"/>
+        <property name="username" value="corp" />
         <property name="password" value="!23QweAsd"/>
     </bean>
 
